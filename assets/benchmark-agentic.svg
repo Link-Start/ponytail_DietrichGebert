@@ -1,0 +1,23 @@
+<svg viewBox="0 0 860 268" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Mean lines of code per task by arm, agentic benchmark on Haiku 4.5</title>
+  <text x="20" y="26" font-size="15" font-weight="600" fill="#8b949e">Lines of code per task (12 real-repo features), Claude Code on Haiku 4.5</text>
+  <text x="20" y="46" font-size="12" fill="#8b949e" opacity="0.85">Mean over 12 frontend + backend tickets, n=4. Lower is leaner. ponytail writes 54% less than a no-skill agent and stays 100% safe.</text>
+
+  <text x="132" y="91" font-size="13" fill="#8b949e" text-anchor="end">baseline</text>
+  <rect x="140" y="78" width="520" height="18" rx="3" fill="#8b949e"/>
+  <text x="668" y="91" font-size="12" fill="#8b949e">191</text>
+
+  <text x="132" y="129" font-size="13" fill="#8b949e" text-anchor="end">caveman</text>
+  <rect x="140" y="116" width="413" height="18" rx="3" fill="#d9822b"/>
+  <text x="561" y="129" font-size="12" fill="#d9822b">152 (-20%)</text>
+
+  <text x="132" y="167" font-size="13" fill="#8b949e" text-anchor="end">yagni-oneliner</text>
+  <rect x="140" y="154" width="348" height="18" rx="3" fill="#8957e5"/>
+  <text x="496" y="167" font-size="12" fill="#8957e5">128 (-33%)</text>
+
+  <text x="132" y="205" font-size="13" font-weight="600" fill="#2da44e" text-anchor="end">ponytail</text>
+  <rect x="140" y="192" width="237" height="18" rx="3" fill="#2da44e"/>
+  <text x="385" y="205" font-size="12" font-weight="600" fill="#2da44e">87 (-54%)</text>
+
+  <text x="20" y="248" font-size="11" fill="#8b949e" opacity="0.8">Range by task: -94% on over-build features (date/color picker, native input vs custom component) to ~0% on already-minimal backend code. LOC = git diff added lines. Writeup: benchmarks/results/2026-06-18-agentic.md</text>
+</svg>

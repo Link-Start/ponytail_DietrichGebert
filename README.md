@@ -46,6 +46,10 @@ More survivors in [examples/](examples/).
 
 The honest measurement is a real agent doing real work: a headless Claude Code session editing [tiangolo's full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) (a real FastAPI + React repo), scored on the `git diff` it leaves behind. Twelve feature tickets, the same agent with and without the skill, n=4, Haiku 4.5.
 
+<p align="center">
+  <img src="assets/benchmark-agentic.svg" width="860" alt="Mean lines of code per task by arm on the agentic benchmark (Haiku 4.5): baseline 191, caveman 152, yagni-oneliner 128, ponytail 87">
+</p>
+
 | vs no-skill baseline | LOC | tokens | cost | time | safe |
 |---|--:|--:|--:|--:|--:|
 | **ponytail** | **-54%** | **-22%** | **-20%** | **-27%** | **100%** |
